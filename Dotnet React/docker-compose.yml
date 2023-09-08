@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  server:
+    build: ./DockerServer/DockerServer
+    container_name: servercontainer
+    ports:
+      - '80:80'
+  client:
+    build: ./Hw1
+    container_name: clientcontainer
+    ports:
+      - '3000:3000'
