@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="IdentityExample\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="IdentityExample\appsettings.json" />
+    <_ContentIncludedByDefault Remove="IdentityExample\obj\IdentityExample.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="IdentityExample\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="IdentityExample\Properties\launchSettings.json" />
+  </ItemGroup>
+
+</Project>
